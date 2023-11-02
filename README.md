@@ -1,5 +1,4 @@
 # asterisk-local
-asterisk-local
 
 Requires:
  - docker
@@ -13,7 +12,7 @@ Build Asterisk's image
 ````
 cd /opt
 git clone https://github.com/primoitt83/asterisk-local.git
-cd asterisk-local/build
+cd asterisk-local/build-asterisk
 chmod +x build.sh
 ./build.sh
 ````
